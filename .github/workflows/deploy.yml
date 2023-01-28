@@ -40,8 +40,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Output information
-                env:
-                    PORT: 3000
+              env:
+                  PORT: 3000
               run: |
                   echo "MONGODB_DB_NAME: $MONGODB_DB_NAME"
                   echo "MONGODB_USERNAME: $MONGODB_USERNAME"
